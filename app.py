@@ -8,7 +8,7 @@ import os
 app = Flask(__name__)
 
 # Set your OpenAI API key
-openai.api_key = os.getenv('sk-ommlY0ovwnRDyEuf09eV3PfBiZln2WAqsNLprj8Jf7T3BlbkFJpN_5J4GUhriR1iZjP5rQDk10QSYp-lCKQ1nVEHaxMA')
+openai.api_key = os.getenv('protected')
 
 # Function to create the table if it doesn't exist
 def create_table():
